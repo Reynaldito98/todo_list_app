@@ -1,0 +1,17 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container__list{
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+}
+
+@media screen and (max-width:390px){
+    .container{
+        width: 250px;
+        position: relative;
+    }
+}

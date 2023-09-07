@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+.page{
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(16, 56, 166), rgb(58, 50, 121), rgb(110, 20, 152));
+    margin: 0;
+}
+
+.page__copyright{
+    margin-top: 50px;
+    color: #fff;
+}

@@ -1,0 +1,49 @@
+.list-item__close-btn-img{
+    width: 10px;
+}
+
+.list-item{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.list-item__button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 50%;
+}
+
+.list-item__button_checked{
+    background-image: url(../images/checked.png);
+    background-size: cover;
+}
+
+.list-item__checkimage{
+    width: 20px;
+}
+
+.list-item__content{
+    margin-left: 10px;
+}
+
+.list-item__content_text-decoration_line-through{
+    text-decoration: line-through;
+}
+
+.list-item__button_margin{
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: background-color 0.4s ease-in-out;
+    border: none;
+}
+
+.list-item__button_margin:hover{
+    background-color: rgb(211, 208, 208);
+}

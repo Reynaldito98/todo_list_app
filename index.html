@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="In this app, you'll be able to create a to-do list by entering the tasks and checking them once they are done">
+    <meta name="keywords" content="To-do List">
+    <meta name="author" content="Reynaldo Perez Pauli"> 
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="icon" href="./download.ico">
+    <title>To-do List</title>
+</head>
+<body>
+    <div class="page">
+        <div class="container">
+            <header class="header">
+                <h2 class="header__heading">To-Do List</h2>
+                <img src="./images/icon.png" alt="To-Do Icon" class="header__icon">
+            </header>
+
+            <main class="content">
+                <input type="text" class="content__input" placeholder="Add your task" id="input">
+                <button type="button" class="content__button">Add</button> 
+            </main>
+
+            <ul class="container__list">
+                
+            </ul>
+        </div>
+        <p class="page__copyright">&#169; 2023 Reynaldo Perez Pauli</p>
+    </div>
+
+    <template id="template">
+        <li class="list-item">
+            <button class="list-item__button list-item__button_clicked"></button>
+            <p class="list-item__content"></p>
+            <button class="list-item__button list-item__button_margin"><img src="./images/close.png" class="list-item__checkimage"></button>
+        </li>
+    </template>
+
+    <script src="./scripts/script.js">
+         
+    </script>
+</body>
+</html>

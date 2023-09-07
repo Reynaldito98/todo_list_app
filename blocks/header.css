@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__icon{
+    width: 18px;
+    height: 18px;
+}
+
+.header__heading{
+    font-size: 18px;
+}
